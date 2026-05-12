@@ -1,481 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GK Quiz</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SSC Maths Questions</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.8;
+    }
 
-<style>
-body{
-    font-family: Arial, sans-serif;
-    background:#f4f6f9;
-    margin:0;
-    padding:20px;
-}
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
 
-h1{
-    text-align:center;
-    color:#222;
-    margin-bottom:25px;
-}
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
 
-.number-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(55px,1fr));
-    gap:10px;
-    max-width:900px;
-    margin:auto;
-}
+    ol {
+      padding-left: 25px;
+    }
 
-.number-btn{
-    padding:15px;
-    border:none;
-    border-radius:10px;
-    background:#1e88e5;
-    color:white;
-    font-size:16px;
-    cursor:pointer;
-    transition:0.3s;
-}
-
-.number-btn:hover{
-    background:#1565c0;
-    transform:scale(1.05);
-}
-
-.quiz-box{
-    max-width:800px;
-    margin:30px auto;
-    background:white;
-    padding:25px;
-    border-radius:15px;
-    box-shadow:0 0 10px rgba(0,0,0,0.1);
-    display:none;
-}
-
-.question{
-    font-size:22px;
-    font-weight:bold;
-    margin-bottom:20px;
-}
-
-.option{
-    display:block;
-    width:100%;
-    margin:10px 0;
-    padding:14px;
-    border:none;
-    border-radius:10px;
-    background:#eceff1;
-    text-align:left;
-    font-size:16px;
-    cursor:pointer;
-    transition:0.3s;
-}
-
-.option:hover{
-    background:#d6dce0;
-}
-
-.correct{
-    background:#4caf50 !important;
-    color:white;
-}
-
-.wrong{
-    background:#f44336 !important;
-    color:white;
-}
-
-.answer{
-    margin-top:15px;
-    font-size:18px;
-    font-weight:bold;
-}
-</style>
+    li {
+      margin-bottom: 18px;
+      font-size: 18px;
+    }
+  </style>
 </head>
-
 <body>
 
-<h1>GK Quiz</h1>
+<div class="container">
+  <h1>SSC Maths Questions</h1>
 
-<div class="number-grid" id="numbers"></div>
+  <ol>
+    <li>A train travels 360 km at a uniform speed. If the speed had been 5 km/h more, it would have taken 1 hour less. Find the original speed of the train.</li>
 
-<div class="quiz-box" id="quizBox">
-    <div class="question" id="question"></div>
-    <div id="options"></div>
-    <div class="answer" id="answer"></div>
+    <li>The ratio of ages of A and B is 4 : 5. After 8 years, the ratio becomes 5 : 6. Find their present ages.</li>
+
+    <li>A shopkeeper marks an article 25% above the cost price and allows a discount of 10%. Find his profit percentage.</li>
+
+    <li>A sum becomes ₹14,400 in 2 years at compound interest compounded annually at 20%. Find the principal.</li>
+
+    <li>Two pipes can fill a tank in 12 hours and 18 hours respectively. In how many hours will they fill the tank together?</li>
+
+    <li>Find the least number which when divided by 12, 18, and 30 leaves remainder 5 in each case.</li>
+
+    <li>A man spends 75% of his income. His income increases by 20% and expenditure by 10%. Find the percentage increase in savings.</li>
+
+    <li>A boat can travel 30 km downstream in 2 hours and the same distance upstream in 3 hours. Find the speed of the stream.</li>
+
+    <li>A mixture contains milk and water in the ratio 7 : 3. If 20 litres of water is added, the ratio becomes 7 : 5. Find the original quantity of mixture.</li>
+
+    <li>Simplify: 48 ÷ 6 × 4 + 18 − 12.</li>
+
+    <li>The average of 15 numbers is 32. If one number is excluded, the average becomes 30. Find the excluded number.</li>
+
+    <li>A man can do a work in 24 days and another man in 36 days. In how many days will they complete the work together?</li>
+
+    <li>Find the simple interest on ₹8,000 at 7.5% per annum for 3 years.</li>
+
+    <li>The population of a town increases by 10% annually. If the present population is 48,400, find the population after 2 years.</li>
+
+    <li>The difference between compound interest and simple interest on ₹5,000 for 2 years at 10% per annum is?</li>
+
+    <li>Find the HCF and LCM of 72 and 120.</li>
+
+    <li>A number exceeds its two-fifth by 36. Find the number.</li>
+
+    <li>A train 180 metres long crosses a platform 220 metres long in 20 seconds. Find the speed of the train.</li>
+
+    <li>If the selling price of 12 articles equals the cost price of 15 articles, find the profit percentage.</li>
+
+    <li>Divide ₹7,200 among A, B, and C in the ratio 2 : 3 : 4.</li>
+
+    <li>A cyclist covers 15 km in the first hour, 20 km in the second hour, and 25 km in the third hour. Find the average speed.</li>
+
+    <li>A person bought an item for ₹2,400 and sold it at a loss of 15%. Find the selling price.</li>
+
+    <li>Find the value of √2025 + √1225.</li>
+
+    <li>A tank is 40% full. If 120 litres are added, it becomes 70% full. Find the capacity of the tank.</li>
+
+    <li>The ratio of the present ages of a father and son is 7 : 2. After 10 years, the ratio becomes 9 : 4. Find the father's present age.</li>
+
+    <li>A trader mixes rice costing ₹40/kg with rice costing ₹60/kg in the ratio 3 : 2. Find the average cost price per kg.</li>
+
+    <li>Find the compound interest on ₹12,000 for 2 years at 8% per annum.</li>
+
+    <li>A car travels at 72 km/h. Find the distance covered in 25 seconds.</li>
+
+    <li>The perimeter of a rectangle is 84 cm and its length is 26 cm. Find its breadth.</li>
+
+    <li>A sum of money doubles itself in 8 years at simple interest. In how many years will it become four times?</li>
+
+    <li>A can complete a work in 10 days and B in 15 days. They work together for 3 days. What fraction of work is left?</li>
+
+    <li>Find the next number in the series: 3, 8, 15, 24, 35, ?</li>
+
+    <li>A shopkeeper gains 20% after giving a discount of 10% on the marked price. Find the marked price if the cost price is ₹1,500.</li>
+
+    <li>A train moving at 54 km/h crosses a pole in 12 seconds. Find the length of the train.</li>
+
+    <li>A man invested ₹12,000 at 12% simple interest. Find the amount after 4 years.</li>
+
+    <li>Find the square root of 576.</li>
+
+    <li>A can do a work in 15 days and B in 20 days. They started together but A left after 5 days. In how many more days will B finish the remaining work?</li>
+
+    <li>A student scores 72, 65, 80, 76, and 87 in five subjects. Find the average marks.</li>
+
+    <li>Find the ratio of 2 hours to 45 minutes.</li>
+
+    <li>A train leaves station A at 8:00 AM at 60 km/h. Another train leaves station B towards A at 9:00 AM at 80 km/h. The distance between A and B is 420 km. At what time will they meet?</li>
+
+    <li>A number is increased by 25% and then decreased by 20%. Find the net percentage change.</li>
+
+    <li>The product of two numbers is 864 and their HCF is 12. Find their LCM.</li>
+
+    <li>Find the area of a circle whose radius is 14 cm.</li>
+
+    <li>If 18 men can complete a work in 20 days, how many men are needed to complete it in 12 days?</li>
+
+    <li>The ratio of milk to water in a mixture is 5 : 1. If 12 litres of water is added, the ratio becomes 5 : 2. Find the quantity of milk.</li>
+
+    <li>A sum amounts to ₹16,200 in 3 years at simple interest at 8% per annum. Find the principal.</li>
+
+    <li>Simplify: (25 × 16) ÷ (5 × 4).</li>
+
+    <li>A person travels one-third of a journey at 30 km/h, one-third at 45 km/h, and the remaining at 60 km/h. Find the average speed for the whole journey.</li>
+
+    <li>The difference between two numbers is 48 and their ratio is 5 : 3. Find the numbers.</li>
+
+    <li>A dealer offers two successive discounts of 20% and 10% on an article marked ₹5,000. Find the final selling price.</li>
+  </ol>
+
 </div>
-
-<script>
-
-const quizData = [
-
-{
-q:"Which famous Goan festival includes colourful floats, music, and dance on the streets?",
-options:["Ganesh Chaturthi","Carnival","Shigmo","Diwali"],
-answer:"Carnival"
-},
-
-{
-q:"Which Indian city is known as the Pink City?",
-options:["Jaipur","Lucknow","Delhi","Mysuru"],
-answer:"Jaipur"
-},
-
-{
-q:"Which Goan sweet is specially prepared during festivals?",
-options:["Bebinca","Rasgulla","Peda","Ladoo"],
-answer:"Bebinca"
-},
-
-{
-q:"Which Indian athlete won Olympic gold in javelin throw?",
-options:["Milkha Singh","Neeraj Chopra","P.T. Usha","Kapil Dev"],
-answer:"Neeraj Chopra"
-},
-
-{
-q:"Which river is the longest in Goa?",
-options:["Mandovi","Zuari","Sal","Terekhol"],
-answer:"Mandovi"
-},
-
-{
-q:"Which monument is called the symbol of love in India?",
-options:["India Gate","Qutub Minar","Taj Mahal","Charminar"],
-answer:"Taj Mahal"
-},
-
-{
-q:"Which Goan beach is famous for nightlife?",
-options:["Colva","Miramar","Anjuna","Bogmalo"],
-answer:"Anjuna"
-},
-
-{
-q:"Which Indian space agency launched Chandrayaan-3?",
-options:["NASA","ESA","ISRO","DRDO"],
-answer:"ISRO"
-},
-
-{
-q:"Which is the capital of Goa?",
-options:["Margao","Ponda","Panaji","Vasco"],
-answer:"Panaji"
-},
-
-{
-q:"Which Indian cricketer is known as the God of Cricket?",
-options:["Virat Kohli","Sachin Tendulkar","Dhoni","Kapil Dev"],
-answer:"Sachin Tendulkar"
-},
-
-{
-q:"Which Goan dance is performed during Shigmo?",
-options:["Lavani","Fugdi","Ghode Modni","Dekhni"],
-answer:"Ghode Modni"
-},
-
-{
-q:"Which planet is called the Red Planet?",
-options:["Venus","Mars","Saturn","Mercury"],
-answer:"Mars"
-},
-
-{
-q:"Which fort in Goa is famous for lighthouse views?",
-options:["Aguada Fort","Chapora Fort","Reis Magos","Tiracol"],
-answer:"Aguada Fort"
-},
-
-{
-q:"Which Indian state is famous for tea gardens?",
-options:["Kerala","Punjab","Assam","Odisha"],
-answer:"Assam"
-},
-
-{
-q:"Which sea lies along Goa?",
-options:["Bay of Bengal","Arabian Sea","Red Sea","Black Sea"],
-answer:"Arabian Sea"
-},
-
-{
-q:"Who is called the Missile Man of India?",
-options:["C.V Raman","Abdul Kalam","Homi Bhabha","Sarabhai"],
-answer:"Abdul Kalam"
-},
-
-{
-q:"Which Goa waterfall is very famous among tourists?",
-options:["Harvalem","Dudhsagar","Netravali","Kesarval"],
-answer:"Dudhsagar"
-},
-
-{
-q:"Which vitamin do we get from sunlight?",
-options:["Vitamin A","Vitamin B","Vitamin C","Vitamin D"],
-answer:"Vitamin D"
-},
-
-{
-q:"What is the state animal of Goa?",
-options:["Tiger","Elephant","Gaur","Lion"],
-answer:"Gaur"
-},
-
-{
-q:"Which festival is called the Festival of Lights?",
-options:["Holi","Christmas","Eid","Diwali"],
-answer:"Diwali"
-},
-
-{
-q:"Which Goan town is famous for Friday market?",
-options:["Bicholim","Mapusa","Ponda","Cuncolim"],
-answer:"Mapusa"
-},
-
-{
-q:"Which organ purifies blood in the body?",
-options:["Heart","Brain","Kidney","Lungs"],
-answer:"Kidney"
-},
-
-{
-q:"Which church is the largest in Goa?",
-options:["Bom Jesus","Se Cathedral","St Cajetan","Church of Lady"],
-answer:"Se Cathedral"
-},
-
-{
-q:"Which Indian state celebrates Hornbill Festival?",
-options:["Nagaland","Sikkim","Manipur","Tripura"],
-answer:"Nagaland"
-},
-
-{
-q:"Which language is official in Goa?",
-options:["Hindi","English","Marathi","Konkani"],
-answer:"Konkani"
-},
-
-{
-q:"Which gas do plants absorb during photosynthesis?",
-options:["Oxygen","Nitrogen","Carbon dioxide","Hydrogen"],
-answer:"Carbon dioxide"
-},
-
-{
-q:"Which Goan singer sang Maria Pitache?",
-options:["Lorna","Remo","Hema","Kishore"],
-answer:"Lorna"
-},
-
-{
-q:"Which Indian river is called Sorrow of Bihar?",
-options:["Ganga","Kosi","Yamuna","Godavari"],
-answer:"Kosi"
-},
-
-{
-q:"Goa became a state in which year?",
-options:["1961","1975","1987","1991"],
-answer:"1987"
-},
-
-{
-q:"Which planet has beautiful rings around it?",
-options:["Earth","Mars","Saturn","Mercury"],
-answer:"Saturn"
-},
-
-{
-q:"Which beach is famous for water sports in Goa?",
-options:["Baga","Colva","Agonda","Palolem"],
-answer:"Baga"
-},
-
-{
-q:"Which freedom fighter gave Give me blood and I shall give you freedom?",
-options:["Bhagat Singh","Nehru","Subhas Bose","Patel"],
-answer:"Subhas Bose"
-},
-
-{
-q:"Which Goan island is famous for Sao Joao festival?",
-options:["Divar","Chorao","Pequeno","St George"],
-answer:"Divar"
-},
-
-{
-q:"What is the national flower of India?",
-options:["Rose","Lotus","Sunflower","Lily"],
-answer:"Lotus"
-},
-
-{
-q:"Which sanctuary in Goa is famous for biodiversity?",
-options:["Bondla","Mhadei","Cotigao","Mollem"],
-answer:"Mhadei"
-},
-
-{
-q:"Which mission landed near Moon south pole?",
-options:["Chandrayaan-1","Mangalyaan","Chandrayaan-3","Chandrayaan-2"],
-answer:"Chandrayaan-3"
-},
-
-{
-q:"Who is known as Father of the Nation?",
-options:["Nehru","Bhagat Singh","Gandhi","Bose"],
-answer:"Gandhi"
-},
-
-{
-q:"Which Indian city is Silicon Valley of India?",
-options:["Pune","Hyderabad","Bengaluru","Chennai"],
-answer:"Bengaluru"
-},
-
-{
-q:"Which river flows near Dudhsagar Falls?",
-options:["Mandovi","Zuari","Mhadei","Sal"],
-answer:"Mandovi"
-},
-
-{
-q:"Which is the national animal of India?",
-options:["Lion","Tiger","Peacock","Elephant"],
-answer:"Tiger"
-},
-
-{
-q:"Which Goan dish is most famous?",
-options:["Fish Curry Rice","Idli","Dhokla","Biryani"],
-answer:"Fish Curry Rice"
-},
-
-{
-q:"Which Indian state is largest by area?",
-options:["Maharashtra","Rajasthan","UP","Gujarat"],
-answer:"Rajasthan"
-},
-
-{
-q:"Which church is in Old Goa?",
-options:["Bom Jesus","St Alex","Mae De Deus","Holy Spirit"],
-answer:"Bom Jesus"
-},
-
-{
-q:"Which device measures temperature?",
-options:["Barometer","Thermometer","Speedometer","Altimeter"],
-answer:"Thermometer"
-},
-
-{
-q:"Which famous fort appears in Dil Chahta Hai movie?",
-options:["Aguada","Chapora","Tiracol","Reis Magos"],
-answer:"Chapora"
-},
-
-{
-q:"Which Indian Parliament house has Lok Sabha and Rajya Sabha?",
-options:["Supreme Court","Parliament","Rashtrapati Bhavan","Raj Bhavan"],
-answer:"Parliament"
-},
-
-{
-q:"Which animal is called King of Jungle?",
-options:["Tiger","Elephant","Lion","Leopard"],
-answer:"Lion"
-},
-
-{
-q:"Which beach is in South Goa?",
-options:["Calangute","Palolem","Baga","Anjuna"],
-answer:"Palolem"
-},
-
-{
-q:"Which Indian scientist discovered Raman Effect?",
-options:["Abdul Kalam","C.V Raman","Homi Bhabha","Aryabhata"],
-answer:"C.V Raman"
-},
-
-{
-q:"Which is the boiling point of water?",
-options:["50°C","75°C","90°C","100°C"],
-answer:"100°C"
-}
-
-];
-
-quizData.sort(() => Math.random() - 0.5);
-
-const numbersDiv = document.getElementById("numbers");
-
-for(let i=0;i<50;i++){
-    const btn=document.createElement("button");
-    btn.className="number-btn";
-    btn.innerText=i+1;
-
-    btn.onclick=()=>showQuestion(i);
-
-    numbersDiv.appendChild(btn);
-}
-
-function showQuestion(index){
-
-    const quiz=quizData[index];
-
-    document.getElementById("quizBox").style.display="block";
-    document.getElementById("question").innerText=quiz.q;
-
-    const optionsDiv=document.getElementById("options");
-    optionsDiv.innerHTML="";
-
-    document.getElementById("answer").innerHTML="";
-
-    quiz.options.forEach(option=>{
-
-        const button=document.createElement("button");
-        button.className="option";
-        button.innerText=option;
-
-        button.onclick=()=>{
-
-            const allOptions=document.querySelectorAll(".option");
-
-            allOptions.forEach(btn=>btn.disabled=true);
-
-            if(option===quiz.answer){
-                button.classList.add("correct");
-                document.getElementById("answer").innerHTML="✅ Correct Answer";
-            }
-            else{
-                button.classList.add("wrong");
-
-                allOptions.forEach(btn=>{
-                    if(btn.innerText===quiz.answer){
-                        btn.classList.add("correct");
-                    }
-                });
-
-                document.getElementById("answer").innerHTML=
-                "❌ Correct Answer: " + quiz.answer;
-            }
-        };
-
-        optionsDiv.appendChild(button);
-
-    });
-
-}
-
-</script>
 
 </body>
 </html>
